@@ -4,15 +4,15 @@
 
 # Regenerative_Radio_Receiver
 
-# Introduction
+## Introduction
 
-# Design Description
+## Design Description
 
 Radio's circuit diagram:
 <p align="center">
 <img src="./img/Regenerative_Radio_Receiver.png" width="1000" height="600"/>
 </p> 
 
-# Measurement Results
+## Measurement Results
 
-# References
+## References
