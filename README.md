@@ -1,6 +1,7 @@
 <p align="center">
 <img src="./img/Regenerative_Radio_Receiver_Internals.jpg" width="1000" height="600"/>
 </p> 
+
 # Regenerative_Radio_Receiver
 
 Radio's circuit diagram:
