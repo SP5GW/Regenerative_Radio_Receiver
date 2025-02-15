@@ -4,13 +4,20 @@
 
 # Regenerative_Radio_Receiver
 
+## Introduction
+
 This project started as part of investigation of how to receive very long frequencies especially SAQ signal
 emited from Grimeton, Sweden. I wanted to build very simple receiver with high frequency amplifier. 
 Since it is difficult to experiment with such infrequent transmissions, I have first looked at receiving DCF-77 
 and then decided to base my desing on Polish Radio 225kHz signal, which is not really VLF, but allowed 
 me to test design assumptions. 
 
-## Introduction
+## Design Description
+
+Radio's circuit diagram:
+<p align="center">
+<img src="./img/Regenerative_Radio_Receiver.png" width="1000" height="600"/>
+</p> 
 
 I noticed that some SAQ pre-amps and DCF receivers were based on op-amps [2], [4] so I decided to use one in 
 my design as well. I selected TL-072 primarly due to its relatively wide bandwith (GBW of about 3MHz) and high input impedance (J-FET). Other factors I considered were: low noise, low price and high availability of this opamp.
@@ -68,20 +75,16 @@ C1 = 25 -400pF
 This combination of LC values allows resonance frequencies from the range of:
 107.1kHz(C1=400pF) - 428kHz(C1=25pF)
 
-
-## Design Description
-
-Radio's circuit diagram:
-<p align="center">
-<img src="./img/Regenerative_Radio_Receiver.png" width="1000" height="600"/>
-</p> 
-
 ## Measurement Results
 
 ##  References
 
 [1] Proste Odbiorniki Amatorskie, Tom 1, Krszysztof Dąbrowski, OE1KDA
+
 [2] Listen to SAQ, https://alexander.n.se/en/the-radio-station-saq-grimeton/lyssna-pa-saq/
+
 [3] SAQ or how to receive very long frequencies, https://prinz.nl/SAQ.html
+
 [4] Software Defined DCF77 Receiver, Filip Zaplata, Miroslav Kasal, Brno University of Technology
+
 [5] TL072 Low Noise J-FET Dual Operational Amplifiers Datasheet, ST Electronics
