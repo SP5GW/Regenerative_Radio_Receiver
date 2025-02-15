@@ -59,6 +59,15 @@ Finally, the resonance frequency of LC tank can be calculated as:
 
 $$fres = 1/2pi\sqrt{Lt1sec*C1}$$
 
+where:
+
+Lt1sec = 5.52 can be adjusted by moving secondary coil accross ferrite rod)
+
+C1 = 25 -400pF
+
+This combination of LC values allows resonance frequencies from the range of:
+107.1kHz(C1=400pF) - 428kHz(C1=25pF)
+
 
 ## Design Description
 
