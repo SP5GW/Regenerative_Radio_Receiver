@@ -64,11 +64,11 @@ To limit high frequency noise I have connected antenna ground with the ground of
 
 Finally, the resonance frequency of LC tank can be calculated as:
 
-$$fres = 1/2pi\sqrt{Lt1sec*C1}$$
+$$fres = 1/2pi\sqrt{L2*C1}$$
 
 where:
 
-Lt1sec = 5.52 can be adjusted by moving secondary coil accross ferrite rod)
+L2 = 5.52mH can be adjusted by moving secondary coil accross ferrite rod)
 
 C1 = 25 -400pF
 
@@ -76,6 +76,8 @@ This combination of LC values allows resonance frequencies from the range of:
 107.1kHz(C1=400pF) - 428kHz(C1=25pF)
 
 ## Measurement Results
+
+
 
 ##  References
 
@@ -88,3 +90,5 @@ This combination of LC values allows resonance frequencies from the range of:
 [4] Software Defined DCF77 Receiver, Filip Zaplata, Miroslav Kasal, Brno University of Technology
 
 [5] TL072 Low Noise J-FET Dual Operational Amplifiers Datasheet, ST Electronics
+
+[6] [Regenarative Receiver - Value Calculator] (./docs/Regenerative_Receiver_Calculations.xls)
