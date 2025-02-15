@@ -57,7 +57,7 @@ To limit high frequency noise I have connected antenna ground with the ground of
 
 Finally, the resonance frequency of LC tank can be calculated as:
 
-$$fres = 1/\pi\sqrt{Lt1sec*C1}$$
+$$fres = 1/2pi\sqrt{Lt1sec*C1}$$
 
 
 ## Design Description
