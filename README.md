@@ -19,11 +19,11 @@ I wanted the input LC tank to be decoupled (isolated) from the antenna so antenn
 
 To avoid excessive loading of LC tank by input impedance of high frequency amplifier stage, J-FET based amplifier must be used. For reasons stated above I have selected TL-072 opamp for this purpose, which utilizes pair of J-FET transistor at its input.
 
-Using various loads I have observed that input impedance of high ferequency amplifier stage shall not be lower then 1Mohm for its impact on LC output voltage in resonance to be limited.
+Using various loads, I have observed that input impedance of high ferequency amplifier stage shall not be lower then 1Mohm for its impact on LC output voltage in resonance to be limited.
 
 Since the input impedance of none inverting amplifier U1B is only equal to:
 
-$Rin_noneinv = R5 || (R4 +X3) = 2.7kohm$
+$Rinnoneinv = R5 || (R4 +X3) = 2.7kohm$
 
 where reactance X3 for capacitor C3 at f=225kHz is equal to 300ohm.
 
@@ -37,7 +37,9 @@ $Rin = R1 || R2 || Rinopamp$
 
 which in practice is euqal to: 
 
-$Rin = R1 || R2$ since $R1 || R2 << Rinopamp$
+$Rin = R1 || R2$ 
+
+since $R1 || R2 << Rinopamp$
 
 In order to keep input impedance on high level R1 and R2 were set to 2.2Mohm, which set input impadance of amplifier stage to about 1.1Mohm.
 
@@ -55,7 +57,7 @@ To limit high frequency noise I have connected antenna ground with the ground of
 
 Finally, the resonance frequency of LC tank can be calculated as:
 
-$fres = \fraq{1}{2\pi\sqrt{Lt1sec*C1}}
+$fres = \fraq{1}{2\pi\sqrt{Lt1sec*C1}}$
 
 
 ## Design Description
