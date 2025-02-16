@@ -129,7 +129,7 @@ where:
 
 Ucpp - Blue Trace - voltage measured at aopam amplifier output.
 
-It shall be noted that Receiver input voltage can significantly differ from open circuit voltage since capacitance of 
+It shall be noted that Receiver input voltage can significantly differ from antenna open circuit voltage since capacitance of 
 random wire antennad used in this experiment can form resonance circuit with L1 coil.
 
 
