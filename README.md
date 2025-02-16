@@ -118,7 +118,7 @@ Ubpp - Blue Trace - opamp amplifier stage output
 
 Overall amplification can be calculated as:
 
-$$ k = k1*k2 = 2,5*3,3 = 8,3 $$
+$$ k = k1 * k2 = 2,5 * 3,3 = 8,3 $$
 
 $$k = k1*k2 = 2,5*3,3 = 8,3$$
 
