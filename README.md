@@ -120,8 +120,6 @@ Overall amplification can be calculated as:
 
 $$ k = k1 * k2 = 2,5 * 3,3 = 8,3 $$
 
-$$k = k1*k2 = 2,5*3,3 = 8,3$$
-
 Measurement is in line with calculated result of 8,2 or 18,3dBm.
 
 ### Receiver Input Voltage Measurement
