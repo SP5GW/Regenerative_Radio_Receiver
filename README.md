@@ -108,7 +108,7 @@ Uapp - Blue Trace - antenna output voltage (signal from arbitrary signal generat
 
 Voltage gain k2 - opamp amplifier stage:
 
-$$k2=Ucpp/Ubpp=976mV/294mV=3,3$$
+$$k2 = Ucpp/Ubpp = 976mV/294mV = 3,3$$
 
 where:
 
@@ -118,7 +118,7 @@ Ubpp - Blue Trace - opamp amplifier stage output
 
 Overall amplification can be calculated as:
 
-$$k=k1*k2=2,5*3,3=8,3$$
+$$k = k1*k2 = 2,5*3,3 = 8,3$$
 
 Measurement is in line with calculated result of 8,2 or 18,3dBm.
 
