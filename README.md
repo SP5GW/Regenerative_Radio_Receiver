@@ -30,9 +30,9 @@ Using various loads, I have observed that input impedance of high ferequency amp
 
 Since the input impedance of none inverting amplifier U1B is only equal to:
 
-$Rinnoneinv = R5 || (R4 +X3) = 2.7kohm$
+$Rinnoneinv = R5 || (R4 + X3) = 1.1kohm$
 
-where reactance X3 for capacitor C3 at f=225kHz is equal to 300ohm.
+where reactance X3 for capacitor C3 at f=225kHz is equal to 322ohm.
 
 I have decided to use voltage follower U1A to buffer LC tank.
 
@@ -54,9 +54,9 @@ Since the voltage follower U1A has amplification gain factor of 1, the overall h
 
 U1B is configured as none inverting amplifier, which means its voltage amplification gain factor for f=225kHz can be expressed as:
 
-$k = 1 + R5 / (R4 + X3) = 1 + 4600 / (1200 +300) = 4.1$
+$k2 = 1 + R5 / (R4 + X3) = 1 + 4600 / (1200 + 300) = 4.1$
 
-Capacitor C3 is added in order to avoid amplifying DC biasing voltage of Vcc/2=6V by U1B.
+Capacitor C3 is added in order to avoid amplifying DC biasing voltage of Vcc/2=6V by U1B i.e. for DC U1B is configured as voltage follower with gain 1.
 
 R3, R6 and C4 were added to stabilize the circuit. Without those components, amplifier was saturating from time to time and the only way to put it back into operation was power off...
 
@@ -103,7 +103,7 @@ Uapp - Blue Trace - antenna output voltage (signal from arbitrary signal generat
 
 Voltage gain k2 - opamp amplifier stage:
 
-$$k2=Ucpp/Ubpp=976mV/117mV=8,3$$
+$$k2=Ucpp/Ubpp=976mV/294mV=3,3$$
 
 where:
 
