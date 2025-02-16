@@ -92,6 +92,7 @@ $$k1 = Ubpp/Uapp = 294mV/117mV = 2,5$$
 where:
 
 Ubpp - Yellow Trace - LC tank output voltage
+
 Uapp - Blue Trace - antenna output voltage (signal from arbitrary signal generator)
 
 ### Voltage Amplification - HF Amplifier Stage
@@ -107,6 +108,7 @@ $$k2=Ucpp/Ubpp=976mV/117mV=8,3$$
 where:
 
 Ucpp - Yellow Trace - LC tank output voltage
+
 Ubpp - Blue Trace - opamp amplifier stage output
 
 Overall amplification can be calculated as:
