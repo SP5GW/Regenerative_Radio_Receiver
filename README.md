@@ -78,7 +78,21 @@ This combination of LC values allows resonance frequencies from the range of:
 
 ## Ferrite Antenna Design
 
+To isolate antenna from the LC tank, I have used magnecic coupling i.e. two coils winded on the same ferrite rod. Primary winding to which 
+antenna is connected has about half amount of turns then secondary winding.
 
+Since I used 0.1 wire, it was very difficult to count each turn. My approach was to first put about 300 turns for secondary winding and then 
+reduce number of turns until I get required 5mH inductance.
+
+Then I roughly created L2 covering on the rod 1/2-1/3 space of L1. 
+
+It is possible to adjust inductance of each coil by moving it to the center (increase L) and to the endge (reduce L) of the rod.
+
+After fixing position of each coil on the rod I got the following parameters of the transformer:
+
+L1 = 1.26mH and L2 = 5.52mH
+
+I did not pay attention to the degree of magnetic coupling between coils.
 
 ## Measurement Results
 
