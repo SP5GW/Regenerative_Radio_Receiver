@@ -75,6 +75,11 @@ C1 = 25 -400pF
 This combination of LC values allows resonance frequencies from the range of:
 107.1kHz(C1=400pF) - 428kHz(C1=25pF)
 
+
+## Ferrite Antenna Design
+
+
+
 ## Measurement Results
 
 All results shown below are for input frequency f=225kHz.
