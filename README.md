@@ -82,7 +82,7 @@ All results shown below are for input frequency f=225kHz.
 ### Voltage Amplification - Input Transformer Stage
 
 <p align="center">
-<img src="./img/Antenna_A_LCout_B.png" width="1000" height="600"/>
+<img src="./img/Antenna_A_LCout_B.png" width="600" height="200"/>
 </p> 
 
 Voltage increase k1 - transformer stage: 
@@ -97,7 +97,7 @@ Uapp - Blue Trace - antenna output voltage (signal from arbitrary signal generat
 ### Voltage Amplification - HF Amplifier Stage
 
 <p align="center">
-<img src="./img/LCout_B_AmpOut_C.png" width="1000" height="600"/>
+<img src="./img/LCout_B_AmpOut_C.png" width="600" height="200"/>
 </p> 
 
 Voltage gain k2 - opamp amplifier stage:
@@ -115,12 +115,12 @@ $$k=k1*k2=2,5*3,3=8,3$$
 
 Measurement is in line with calculated result of 8,2 or 18,3dBm.
 
-### Open-circuit antenna voltage Measurement
+### Receiver Input Voltage Measurement
 
-Open-circiut antenna voltage Uoc can be calculated based on measured opamp output voltage when receiver is connected to actual antenna:
+Receiver input voltage Uoc can be calculated based on measured opamp output voltage when receiver is connected to actual antenna:
 
 <p align="center">
-<img src="./img/AmpOut_C_realsignal_speech.png" width="1000" height="600"/>
+<img src="./img/AmpOut_C_realsignal_speech.png" width="600" height="200"/>
 </p>
 
 $$Uapp = Ucpp/k = 3,48/8,2 = 0,424Vpp$$
@@ -128,6 +128,9 @@ $$Uapp = Ucpp/k = 3,48/8,2 = 0,424Vpp$$
 where:
 
 Ucpp - Blue Trace - voltage measured at aopam amplifier output.
+
+It shall be noted that Receiver input voltage can significantly differ from open circuit voltage since capacitance of 
+random wire antennad used in this experiment can form resonance circuit with L1 coil.
 
 
 ##  References
